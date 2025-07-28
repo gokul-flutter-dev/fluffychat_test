@@ -7,9 +7,9 @@ import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat_permissions_settings/chat_permissions_settings_view.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import 'package:fluffychat/widgets/permission_slider_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/future_loading_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/widgets/permission_slider_dialog.dart';
 
 class ChatPermissionsSettings extends StatefulWidget {
   const ChatPermissionsSettings({super.key});

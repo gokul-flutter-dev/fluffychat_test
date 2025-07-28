@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:fluffychat/glug_chat/utils/account_bundles.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -15,25 +16,25 @@ import 'package:receive_sharing_intent/receive_sharing_intent.dart';
 import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat_list/chat_list_view.dart';
-import 'package:fluffychat/utils/error_reporter.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/show_scaffold_dialog.dart';
-import 'package:fluffychat/utils/show_update_snackbar.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_modal_action_popup.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/share_scaffold_dialog.dart';
-import '../../../../utils/account_bundles.dart';
-import '../../../config/setting_keys.dart';
-import '../../../utils/url_launcher.dart';
-import '../../../widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/utils/error_reporter.dart';
+import 'package:fluffychat/glug_chat/utils/localized_exception_extension.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:fluffychat/glug_chat/utils/platform_infos.dart';
+import 'package:fluffychat/glug_chat/utils/show_scaffold_dialog.dart';
+import 'package:fluffychat/glug_chat/utils/show_update_snackbar.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/show_modal_action_popup.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/future_loading_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/share_scaffold_dialog.dart';
+
+import 'package:fluffychat/config/setting_keys.dart';
+import 'package:fluffychat/glug_chat/utils/url_launcher.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
 import '../bootstrap/bootstrap_dialog.dart';
 
-import 'package:fluffychat/utils/tor_stub.dart'
+import 'package:fluffychat/glug_chat/utils/tor_stub.dart'
     if (dart.library.html) 'package:tor_detector_web/tor_detector_web.dart';
 
 enum PopupMenuAction {

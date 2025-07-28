@@ -1,3 +1,7 @@
+import 'package:fluffychat/glug_chat/utils/background_push.dart';
+import 'package:fluffychat/glug_chat/utils/client_manager.dart';
+import 'package:fluffychat/glug_chat/utils/platform_infos.dart';
+import 'package:fluffychat/glug_chat/widgets/fluffy_chat_app.dart';
 import 'package:flutter/material.dart';
 
 import 'package:collection/collection.dart';
@@ -7,11 +11,9 @@ import 'package:matrix/matrix.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/client_manager.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+
 import 'config/setting_keys.dart';
-import 'utils/background_push.dart';
-import 'widgets/fluffy_chat_app.dart';
+
 
 void main() async {
   Logs().i('Welcome to ${AppConfig.applicationName} <3');

@@ -8,9 +8,9 @@ import 'package:fluffychat/glug_chat/pages/chat/chat.dart';
 import 'package:fluffychat/glug_chat/pages/chat/events/message.dart';
 import 'package:fluffychat/glug_chat/pages/chat/seen_by_row.dart';
 import 'package:fluffychat/glug_chat/pages/chat/typing_indicators.dart';
-import 'package:fluffychat/utils/account_config.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/filtered_timeline_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:fluffychat/glug_chat/utils/account_config.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/filtered_timeline_extension.dart';
+import 'package:fluffychat/glug_chat/utils/platform_infos.dart';
 
 class ChatEventList extends StatelessWidget {
   final ChatController controller;

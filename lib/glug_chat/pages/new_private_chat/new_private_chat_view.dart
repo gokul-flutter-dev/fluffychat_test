@@ -8,13 +8,13 @@ import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/config/themes.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/new_private_chat/new_private_chat.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import '../../../widgets/qr_code_viewer.dart';
+import 'package:fluffychat/glug_chat/utils/localized_exception_extension.dart';
+import 'package:fluffychat/glug_chat/utils/platform_infos.dart';
+import 'package:fluffychat/glug_chat/utils/url_launcher.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/layouts/max_width_body.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/widgets/qr_code_viewer.dart';
 
 class NewPrivateChatView extends StatelessWidget {
   final NewPrivateChatController controller;

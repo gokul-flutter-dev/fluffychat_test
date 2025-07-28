@@ -6,11 +6,11 @@ import 'package:matrix/matrix.dart';
 import 'package:fluffychat/config/themes.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat/chat.dart';
-import 'package:fluffychat/utils/date_time_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/sync_status_localization.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/presence_builder.dart';
+import 'package:fluffychat/glug_chat/utils/date_time_extension.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:fluffychat/glug_chat/utils/sync_status_localization.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/presence_builder.dart';
 
 class ChatAppBarTitle extends StatelessWidget {
   final ChatController controller;

@@ -11,12 +11,12 @@ import 'package:fluffychat/glug_chat/pages/chat_list/dummy_chat_list_item.dart';
 import 'package:fluffychat/glug_chat/pages/chat_list/search_title.dart';
 import 'package:fluffychat/glug_chat/pages/chat_list/space_view.dart';
 import 'package:fluffychat/glug_chat/pages/chat_list/status_msg_list.dart';
-import 'package:fluffychat/utils/stream_extension.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/public_room_dialog.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import '../../../config/themes.dart';
-import '../../../widgets/adaptive_dialogs/user_dialog.dart';
-import '../../../widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/utils/stream_extension.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/public_room_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/config/themes.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/user_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
 import 'chat_list_header.dart';
 
 class ChatListViewBody extends StatelessWidget {

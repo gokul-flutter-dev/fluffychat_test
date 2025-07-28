@@ -5,7 +5,7 @@ import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/settings_multiple_emotes/settings_multiple_emotes.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
 
 class MultipleEmotesSettingsView extends StatelessWidget {
   final MultipleEmotesSettingsController controller;

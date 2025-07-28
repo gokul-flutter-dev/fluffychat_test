@@ -4,9 +4,9 @@ import 'package:badges/badges.dart';
 import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/widgets/hover_builder.dart';
-import 'package:fluffychat/widgets/unread_rooms_badge.dart';
-import '../../../config/themes.dart';
+import 'package:fluffychat/glug_chat/widgets/hover_builder.dart';
+import 'package:fluffychat/glug_chat/widgets/unread_rooms_badge.dart';
+import 'package:fluffychat/config/themes.dart';
 
 class NaviRailItem extends StatelessWidget {
   final String toolTip;

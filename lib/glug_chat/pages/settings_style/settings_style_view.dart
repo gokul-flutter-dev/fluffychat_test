@@ -9,14 +9,14 @@ import 'package:fluffychat/config/setting_keys.dart';
 import 'package:fluffychat/config/themes.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat/events/state_message.dart';
-import 'package:fluffychat/utils/account_config.dart';
-import 'package:fluffychat/utils/color_value.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import 'package:fluffychat/widgets/mxc_image.dart';
-import '../../../config/app_config.dart';
-import '../../../widgets/settings_switch_list_tile.dart';
+import 'package:fluffychat/glug_chat/utils/account_config.dart';
+import 'package:fluffychat/glug_chat/utils/color_value.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/layouts/max_width_body.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/widgets/mxc_image.dart';
+import 'package:fluffychat/config/app_config.dart';
+import 'package:fluffychat/glug_chat/widgets/settings_switch_list_tile.dart';
 import 'settings_style.dart';
 
 class SettingsStyleView extends StatelessWidget {

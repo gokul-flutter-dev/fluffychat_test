@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:matrix/matrix.dart';
 
-import '../../../widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
 import 'settings_homeserver_view.dart';
 
 class SettingsHomeserver extends StatefulWidget {

@@ -5,11 +5,11 @@ import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/other_party_can_receive.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import '../../../config/themes.dart';
+import 'package:fluffychat/glug_chat/utils/other_party_can_receive.dart';
+import 'package:fluffychat/glug_chat/utils/platform_infos.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
+import 'package:fluffychat/config/themes.dart';
 import 'chat.dart';
 import 'input_bar.dart';
 

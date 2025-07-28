@@ -6,7 +6,7 @@ import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/config/themes.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat_list/chat_list.dart';
-import 'package:fluffychat/widgets/navigation_rail.dart';
+import 'package:fluffychat/glug_chat/widgets/navigation_rail.dart';
 import 'chat_list_body.dart';
 
 class ChatListView extends StatelessWidget {

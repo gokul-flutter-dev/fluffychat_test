@@ -4,10 +4,10 @@ import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/invitation_selection/invitation_selection.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import '../../../widgets/adaptive_dialogs/user_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/layouts/max_width_body.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/user_dialog.dart';
 
 class InvitationSelectionView extends StatelessWidget {
   final InvitationSelectionController controller;

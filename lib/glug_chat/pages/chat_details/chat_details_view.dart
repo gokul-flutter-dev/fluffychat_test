@@ -7,15 +7,15 @@ import 'package:matrix/matrix.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat_details/chat_details.dart';
 import 'package:fluffychat/glug_chat/pages/chat_details/participant_list_item.dart';
-import 'package:fluffychat/utils/fluffy_share.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/chat_settings_popup_menu.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import '../../../utils/url_launcher.dart';
-import '../../../widgets/mxc_image_viewer.dart';
-import '../../../widgets/qr_code_viewer.dart';
+import 'package:fluffychat/glug_chat/utils/fluffy_share.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/chat_settings_popup_menu.dart';
+import 'package:fluffychat/glug_chat/widgets/layouts/max_width_body.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/utils/url_launcher.dart';
+import 'package:fluffychat/glug_chat/widgets/mxc_image_viewer.dart';
+import 'package:fluffychat/glug_chat/widgets/qr_code_viewer.dart';
 
 class ChatDetailsView extends StatelessWidget {
   final ChatDetailsController controller;

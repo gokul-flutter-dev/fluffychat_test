@@ -9,11 +9,11 @@ import 'package:html/dom.dart' as dom;
 import 'package:html/parser.dart' as parser;
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/utils/event_checkbox_extension.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/mxc_image.dart';
-import '../../../../utils/url_launcher.dart';
+import 'package:fluffychat/glug_chat/utils/event_checkbox_extension.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/future_loading_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/mxc_image.dart';
+import 'package:fluffychat/glug_chat/utils/url_launcher.dart';
 
 class HtmlMessage extends StatelessWidget {
   final String html;

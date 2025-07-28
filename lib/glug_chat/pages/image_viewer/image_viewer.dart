@@ -5,10 +5,10 @@ import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/config/themes.dart';
 import 'package:fluffychat/glug_chat/pages/image_viewer/image_viewer_view.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/show_scaffold_dialog.dart';
-import 'package:fluffychat/widgets/share_scaffold_dialog.dart';
-import '../../../utils/matrix_sdk_extensions/event_extension.dart';
+import 'package:fluffychat/glug_chat/utils/platform_infos.dart';
+import 'package:fluffychat/glug_chat/utils/show_scaffold_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/share_scaffold_dialog.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/event_extension.dart';
 
 class ImageViewer extends StatefulWidget {
   final Event event;

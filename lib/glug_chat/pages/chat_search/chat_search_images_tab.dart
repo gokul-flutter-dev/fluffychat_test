@@ -7,8 +7,8 @@ import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat/events/video_player.dart';
 import 'package:fluffychat/glug_chat/pages/image_viewer/image_viewer.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/widgets/mxc_image.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:fluffychat/glug_chat/widgets/mxc_image.dart';
 
 class ChatSearchImagesTab extends StatelessWidget {
   final Room room;

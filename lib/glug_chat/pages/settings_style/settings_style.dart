@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/utils/account_config.dart';
-import 'package:fluffychat/utils/file_selector.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/theme_builder.dart';
-import '../../../widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/utils/account_config.dart';
+import 'package:fluffychat/glug_chat/utils/file_selector.dart';
+import 'package:fluffychat/glug_chat/widgets/future_loading_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/theme_builder.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
 import 'settings_style_view.dart';
 
 class SettingsStyle extends StatefulWidget {

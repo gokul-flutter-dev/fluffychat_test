@@ -5,10 +5,10 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/date_time_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/utils/date_time_extension.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:fluffychat/glug_chat/utils/url_launcher.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
 
 class ChatSearchMessageTab extends StatelessWidget {
   final String searchQuery;

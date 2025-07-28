@@ -10,15 +10,15 @@ import 'package:fluffychat/config/themes.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat_list/chat_list_item.dart';
 import 'package:fluffychat/glug_chat/pages/chat_list/search_title.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/stream_extension.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/public_room_dialog.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_modal_action_popup.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/utils/localized_exception_extension.dart';
+import 'package:fluffychat/glug_chat/utils/stream_extension.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/public_room_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/show_modal_action_popup.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/avatar.dart';
+import 'package:fluffychat/glug_chat/widgets/future_loading_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
 
 enum AddRoomType { chat, subspace }
 

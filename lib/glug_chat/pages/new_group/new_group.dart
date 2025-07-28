@@ -8,8 +8,8 @@ import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/new_group/new_group_view.dart';
-import 'package:fluffychat/utils/file_selector.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/utils/file_selector.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
 
 class NewGroup extends StatefulWidget {
   final CreateGroupType createGroupType;

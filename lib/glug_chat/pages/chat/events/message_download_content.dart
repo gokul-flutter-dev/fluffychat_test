@@ -4,9 +4,9 @@ import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/file_description.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/event_extension.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
+import 'package:fluffychat/glug_chat/utils/file_description.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/event_extension.dart';
+import 'package:fluffychat/glug_chat/utils/url_launcher.dart';
 
 class MessageDownloadContent extends StatelessWidget {
   final Event event;

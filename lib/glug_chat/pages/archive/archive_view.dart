@@ -6,7 +6,7 @@ import 'package:matrix/matrix.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/archive/archive.dart';
 import 'package:fluffychat/glug_chat/pages/chat_list/chat_list_item.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
+import 'package:fluffychat/glug_chat/widgets/layouts/max_width_body.dart';
 
 class ArchiveView extends StatelessWidget {
   final ArchiveController controller;

@@ -8,8 +8,8 @@ import 'package:matrix/matrix.dart';
 
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/chat/events/map_bubble.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/adaptive_dialog_action.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/adaptive_dialog_action.dart';
+import 'package:fluffychat/glug_chat/widgets/future_loading_dialog.dart';
 
 class SendLocationDialog extends StatefulWidget {
   final Room room;

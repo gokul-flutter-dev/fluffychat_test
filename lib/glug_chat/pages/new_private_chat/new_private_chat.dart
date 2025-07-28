@@ -9,12 +9,12 @@ import 'package:matrix/matrix.dart';
 import 'package:fluffychat/l10n/l10n.dart';
 import 'package:fluffychat/glug_chat/pages/new_private_chat/new_private_chat_view.dart';
 import 'package:fluffychat/glug_chat/pages/new_private_chat/qr_scanner_modal.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/utils/fluffy_share.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import '../../../widgets/adaptive_dialogs/user_dialog.dart';
+import 'package:fluffychat/glug_chat/utils/adaptive_bottom_sheet.dart';
+import 'package:fluffychat/glug_chat/utils/fluffy_share.dart';
+import 'package:fluffychat/glug_chat/utils/platform_infos.dart';
+import 'package:fluffychat/glug_chat/utils/url_launcher.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/user_dialog.dart';
 
 class NewPrivateChat extends StatefulWidget {
   const NewPrivateChat({super.key});

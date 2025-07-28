@@ -9,9 +9,9 @@ import 'package:url_launcher/url_launcher_string.dart';
 import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/config/themes.dart';
 import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import '../../../widgets/matrix.dart';
+import 'package:fluffychat/glug_chat/utils/localized_exception_extension.dart';
+import 'package:fluffychat/glug_chat/widgets/layouts/max_width_body.dart';
+import 'package:fluffychat/glug_chat/widgets/matrix.dart';
 import 'settings_homeserver.dart';
 
 class SettingsHomeserverView extends StatelessWidget {

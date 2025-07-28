@@ -7,14 +7,14 @@ import 'package:mime/mime.dart';
 
 import 'package:fluffychat/config/app_config.dart';
 import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
-import 'package:fluffychat/utils/other_party_can_receive.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/size_string.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/adaptive_dialog_action.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/dialog_text_field.dart';
-import '../../../utils/resize_video.dart';
+import 'package:fluffychat/glug_chat/utils/localized_exception_extension.dart';
+import 'package:fluffychat/glug_chat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
+import 'package:fluffychat/glug_chat/utils/other_party_can_receive.dart';
+import 'package:fluffychat/glug_chat/utils/platform_infos.dart';
+import 'package:fluffychat/glug_chat/utils/size_string.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/adaptive_dialog_action.dart';
+import 'package:fluffychat/glug_chat/widgets/adaptive_dialogs/dialog_text_field.dart';
+import 'package:fluffychat/glug_chat/utils/resize_video.dart';
 
 class SendFileDialog extends StatefulWidget {
   final Room room;
