@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'package:fluffychat/glug_home/UI/bottom_nav_page.dart';
+import 'package:fluffychat/glug_home/UI/home_page.dart';
 import 'package:flutter/material.dart';
 
 import 'package:go_router/go_router.dart';
@@ -45,7 +47,7 @@ abstract class AppRoutes {
     GoRouterState state,
   ) =>
       Matrix.of(context).widget.clients.any((client) => client.isLogged())
-          ? '/rooms'
+          ? '/glugHome'
           : null;
 
   static FutureOr<String?> loggedOutRedirect(
@@ -63,7 +65,7 @@ abstract class AppRoutes {
       path: '/',
       redirect: (context, state) =>
           Matrix.of(context).widget.clients.any((client) => client.isLogged())
-              ? '/rooms'
+              ? '/glugHome'
               : '/home',
     ),
     GoRoute(
@@ -117,11 +119,22 @@ abstract class AppRoutes {
                   displayNavigationRail:
                       state.path?.startsWith('/rooms/settings') != true,
                 ),
-                sideView: child,
+                sideView: BottomNavPage(child: child),
               )
-            : child,
+            : BottomNavPage(child: child),
       ),
-      routes: [
+      routes: [  
+           GoRoute(
+          path: '/glugHome',
+          redirect: loggedOutRedirect,
+          pageBuilder: (context, state) => defaultPageBuilder(
+            context,
+            state,
+            FluffyThemes.isColumnMode(context)
+                ? const HomePage()
+                : const HomePage()
+          ),),
+
         GoRoute(
           path: '/rooms',
           redirect: loggedOutRedirect,

@@ -173,7 +173,7 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
             );
             _registerSubs(_loginClientCandidate!.clientName);
             _loginClientCandidate = null;
-            FluffyChatApp.router.go('/rooms');
+            FluffyChatApp.router.go('/glugHome');
           });
     if (widget.clients.isEmpty) widget.clients.add(candidate);
     return candidate;
@@ -300,11 +300,11 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
         );
 
         if (state != LoginState.loggedIn) {
-          FluffyChatApp.router.go('/rooms');
+          FluffyChatApp.router.go('/glugHome');
         }
       } else {
         FluffyChatApp.router
-            .go(state == LoginState.loggedIn ? '/rooms' : '/home');
+            .go(state == LoginState.loggedIn ? '/glugHome' : '/home');
       }
     });
     onUiaRequest[name] ??= c.onUiaRequest.stream.listen(uiaRequestHandler);
